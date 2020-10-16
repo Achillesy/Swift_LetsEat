@@ -2,22 +2,22 @@
 //  RestaurantListViewController.swift
 //  LetsEat
 //
-//  Created by Xuchu Liu on 10/14/20.
-//  Copyright © 2020 ReInHand. All rights reserved.
+//  Created by admin on 28/11/2019.
+//  Copyright © 2019 MyName. All rights reserved.
 //
 
 import UIKit
 
 class RestaurantListViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
-    @IBOutlet weak var collectonView:UICollectionView!
+    @IBOutlet weak var collectionView: UICollectionView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         1
     }
@@ -25,5 +25,6 @@ class RestaurantListViewController: UIViewController, UICollectionViewDataSource
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         return collectionView.dequeueReusableCell(withReuseIdentifier: "restaurantCell", for: indexPath)
     }
+    
     
 }

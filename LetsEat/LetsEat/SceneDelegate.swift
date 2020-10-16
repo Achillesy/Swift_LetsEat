@@ -2,8 +2,8 @@
 //  SceneDelegate.swift
 //  LetsEat
 //
-//  Created by Xuchu Liu on 8/14/20.
-//  Copyright © 2020 ReInHand. All rights reserved.
+//  Created by admin on 27/11/2019.
+//  Copyright © 2019 MyName. All rights reserved.
 //
 
 import UIKit
