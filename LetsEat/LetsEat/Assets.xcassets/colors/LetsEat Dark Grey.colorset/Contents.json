@@ -15,6 +15,22 @@
           "green" : "0xAA"
         }
       }
+    },
+    {
+      "idiom" : "universal",
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "color" : {
+        "color-space" : "extended-gray",
+        "components" : {
+          "white" : "0.250",
+          "alpha" : "1.000"
+        }
+      }
     }
   ]
 }

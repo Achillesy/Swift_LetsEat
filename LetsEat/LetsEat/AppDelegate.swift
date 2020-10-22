@@ -15,6 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        initialize()
         return true
     }
 
@@ -35,3 +36,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+private extension AppDelegate {
+    func initialize() {
+        setupDefaultColors()
+    }
+    
+    func setupDefaultColors() {
+        UITabBar.appearance().tintColor = .systemRed
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.systemRed], for: UIControl.State.selected)
+        UINavigationBar.appearance().tintColor = .systemRed
+        UITabBar.appearance().isTranslucent = false
+    }
+}

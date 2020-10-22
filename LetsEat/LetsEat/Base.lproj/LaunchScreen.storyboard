@@ -3,6 +3,7 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -16,10 +17,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="detail-logo" translatesAutoresizingMaskIntoConstraints="NO" id="gqP-C6-xiS">
-                                <rect key="frame" x="97" y="392" width="220" height="112"/>
+                                <rect key="frame" x="-13" y="336" width="440" height="224"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" name="LetsEat Dark Grey"/>
                         <constraints>
                             <constraint firstItem="gqP-C6-xiS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="djy-DH-GcX"/>
                             <constraint firstItem="gqP-C6-xiS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="fuB-cQ-viJ"/>
@@ -34,5 +35,8 @@
     </scenes>
     <resources>
         <image name="detail-logo" width="220" height="112"/>
+        <namedColor name="LetsEat Dark Grey">
+            <color red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
     </resources>
 </document>
